@@ -1,0 +1,23 @@
+{
+  "name": "tgaibot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@ai-sdk/google": "^0.0.21",
+    "@ai-sdk/mistral": "^0.0.17",
+    "@ai-sdk/openai": "^0.0.29",
+    "ai": "^3.1.36",
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
